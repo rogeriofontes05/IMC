@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+* main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+* main #aparelho {
+  border: 10px solid;
+  background-color: #494E51;
+  height: 645px;
+  width: 320px;
+  border-radius: 25px;
+  padding: 10px;
+  background: -webkit-linear-gradient(left, #39D580 0%, #25CBA4 50%);
+}
+
+* main #aparelho #cel_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  font-size: 8px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+  height: 50px;
+}
+
+* main #aparelho #cel_body {
+  height: 485px;
+  background: -webkit-linear-gradient(left, #f3f3f3 0%, #fff 50%, #f3f3f3 100%);
+  padding: 0 10px;
+}
+
+* main #aparelho #cel_body img {
+  height: 70px;
+}
+
+* main #aparelho #cel_body #area_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80px;
+  /* border: 1px solid; */
+}
+
+* main #aparelho #cel_body #div_btn,
+* main #aparelho #cel_body #div_idade_peso {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+* main #aparelho #cel_body #altura p {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+* main #aparelho #cel_body #altura div h1 {
+  color: #494E51;
+  line-height: 50px;
+  font-weight: bold;
+  /* border: 3px solid rgb(0, 4, 255); */
+}
+
+* main #aparelho #cel_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background: -webkit-linear-gradient(left, #f3f3f3 0%, #fff 50%, #f3f3f3 100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 3px solid red;
+}
+
+* main #aparelho #cel_bottom #btnCalcular {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: -webkit-linear-gradient(left, #39D580 0%, #25CBA4 50%);
+  height: 40px;
+  padding: 12px 25px;
+  border-radius: 20px;
+  color: #fff;
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Microsoft JhengHei Light;
+}
