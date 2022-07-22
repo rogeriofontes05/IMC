@@ -1,0 +1,245 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+} */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid; */
+    color: #999;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid red;
+    height: 700px;
+}
+
+#aparelho {
+    border: 10px solid #494E51;
+    background-color: #494E51;
+    height: 645px;
+    width: 320px;
+    border-radius: 25px;
+}
+
+#cel_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #39D580 0%, #25CBA4 50%);
+    /* background: -webkit-linear-gradient(left, #39D580 0%, #25CBA4 50%, #39D580 100%); */
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #fff;
+    font-size: 8px;
+}
+
+#cel_body {
+    height: 485px;
+    background: -webkit-linear-gradient(left, #f3f3f3 0%, #fff 50%, #f3f3f3 100%);
+    padding: 0 10px;
+    /* border: 1px solid; */
+}
+
+#cel_body img {
+    height: 70px;
+}
+
+#area_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80px;
+    /* border: 1px solid; */
+}
+
+#div_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#div_logo img {
+    height: 55px;
+}
+
+#titulo {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #494E51;
+    /* border: 1px solid; */
+}
+
+/* #cel_body div:first-child div:first-child {
+    flex: 1;
+} */
+
+/* #cel_body div:first-child div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    flex: 2;
+    height: 80px;
+} */
+
+
+/* Área celular */
+#div_btn,
+#div_idade_peso {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+#div_idade_peso h1{
+    color: #494E51;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.btn_redondo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #25CBA4;
+
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    /* border: 3px solid purple; */
+}
+
+.btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #25CBA4;
+    box-shadow: 0px 0px 6px #999;
+    font-size: 14px;
+    background-color: #fff;
+    height: 120px;
+    width: 100px;
+    /* border: 3px solid purple; */
+}
+
+
+input{
+    width: 30px;
+}
+
+
+#altura{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    box-shadow: 0px 0px 6px #999;
+    height: 120px;
+    color: #25CBA4;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    /* border: 3px solid red; */
+}
+
+#altura p{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    /* border: 3px solid rgb(0, 4, 255); */
+}
+
+#altura h1{
+    color: #494E51;
+    line-height: 50px;
+    font-weight: bold;
+    /* border: 3px solid rgb(0, 4, 255); */
+}
+
+#altura div{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 3px solid red; */
+    
+}
+
+
+
+
+.btn div {
+    display: flex;
+    /* border: 3px solid purple; */
+}
+
+#homem:hover,
+#mulher:hover,
+#btnCalcular:hover,
+.btn_redondo:hover {
+    cursor: pointer;
+}
+
+
+#homem,
+#idade {
+    flex: 1;
+    margin-right: 5px;
+}
+
+#mulher,
+#peso {
+    margin-left: 5px;
+    flex: 1;
+}
+
+/* Área celular                                      FIM */
+
+
+#cel_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background: -webkit-linear-gradient(left, #f3f3f3 0%, #fff 50%, #f3f3f3 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 1px solid; */
+}
+
+#cel_bottom #btnCalcular {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: -webkit-linear-gradient(left, #39D580 0%, #25CBA4 50%);
+    height: 40px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: #fff;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Microsoft JhengHei Light;
+}
