@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+      <main>
+        <div id="aparelho">
+            <div id="cel_header">
+                <h1>Calculadora de IMC</h1>
+            </div>
+
+            <div id="cel_body">
+                <div id="area_header">
+                    <div id="div_logo"><img src="assets/img/logo.png" alt="logo"></div>
+                    <div id="titulo">
+                        <h1 id="resultado"></h1>
+                    </div>
+                </div>
+
+                <div id="div_btn">
+
+                    <div id="homem" class="btn">
+                        <img src="assets/img/Homen1.png" alt="">
+                        <p>Homem</p>
+                    </div>
+
+                    <div id="mulher" class="btn">
+                        <img src="assets/img/Mulher.png" alt="">
+                        <p>Mulher</p>
+                    </div>
+
+                </div>
+
+                <div id="div_idade_peso">
+                    <div id="idade" class="btn">
+                        <p>idade</p>
+                        <input id="numero_idade" type="number" value="0">
+                        <!-- <h1>25</h1> -->
+                        <div>
+                            <a>-</a>
+                            <button class="btn_redondo" id="btn-decrementa">-</button>
+                            <button class="btn_redondo" id="btn-incrementa">+</button>
+
+                            
+                            <!-- <a id="btn-incrementa-"class="btn_redondo">+</a> -->
+                        </div>
+                    </div>
+
+                    <div id="peso" class="btn">
+                        <p>peso</p>
+                        <h1>70</h1>
+
+                        <div>
+                            <button class="btn_redondo">-</button>
+                            <button class="btn_redondo">+</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="altura">
+                    <p>Altura</p>
+                    <div>
+                        <h1>5</h1>
+                    </div>
+                    <div>
+                        <button class="btn_redondo">-</button>
+                        <button class="btn_redondo">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cel_bottom">
+                <button id="btnCalcular">Calcular Taxa Metabólica Basal</button>
+            </div>
+        </div>
+    </main>
+<script src="app.js"></script>
+</body>
+
+</html>
