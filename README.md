@@ -3,7 +3,7 @@
 <H1>PROJETO EM DESENVOLVIMENTO</H1>
 <H2>Calculadora IMC</H2>
 
-EM ANDAMENTO...
+CONCLUIDO!!! <a href="https://favoritos-rf.000webhostapp.com/calculadoras/imc/ver2/index.html">LINK</a>
 
 <p align="center">
   <img width="300" src="/assets/img/IMC.png"
