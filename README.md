@@ -1,6 +1,6 @@
 # IMC
 
-<H1>PROJETO EM DESENVOLVIMENTO</H1>
+<H1>Mais um Projeto Concluido</H1>
 <H2>Calculadora IMC</H2>
 
 CONCLUIDO!!! <a href="https://favoritos-rf.000webhostapp.com/calculadoras/imc/ver2/index.html">LINK</a>
